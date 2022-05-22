@@ -10,5 +10,5 @@ apt-get install netcat
 nc -lvnp 7777 # listen on TCP 7777, if you want to change, change the shellcode in exploit_automated.py
 
 # On host machine, in another terminal
-./exploit_automated.py
+./exploit_automated.py localhost 21
 ```
